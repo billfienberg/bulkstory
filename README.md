@@ -8,3 +8,5 @@ Instead of using a spreadsheet to write a lot of users stories, I thought it mig
 
 Hello
 
+![](.gitbook/assets/w3c_home.gif)
+
