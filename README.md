@@ -10,3 +10,4 @@ Hello
 
 ![](.gitbook/assets/w3c_home.gif)
 
+That is approximately what happend.
