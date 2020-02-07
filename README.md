@@ -12,3 +12,7 @@ Hello
 
 2020-01-15
 Last updated
+
+<script>
+console.log("TESTING");
+</script>
