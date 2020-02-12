@@ -14,7 +14,19 @@
     </main>
 
     {%- include footer.html -%}
+    <!-- Before the closing </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+    <script>
+      const appId = 'ZVM90TV1LT'
+      const apiKey = "bb8084db89e83e08f6d0df0fbfda0ffa";
+      const indexName = "docsearch";
+      const inputSelector = "#docsearch-input";
 
+      // Set debug to true if you want to inspect the dropdown
+      const debug = false;
+
+      docsearch({ appId, apiKey, indexName, inputSelector, debug });
+    </script>
   </body>
 
 </html>
