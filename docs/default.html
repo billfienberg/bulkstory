@@ -16,15 +16,21 @@
     <!-- Before the closing </body> -->
     <script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
     <script>
-      const appId = 'ZVM90TV1LT'
-      const apiKey = "bb8084db89e83e08f6d0df0fbfda0ffa";
-      const indexName = "docsearch";
-      const inputSelector = "#docsearch-input";
+      var appId = 'ZVM90TV1LT'
+      var apiKey = "bb8084db89e83e08f6d0df0fbfda0ffa";
+      var indexName = "docsearch";
+      var inputSelector = "#docsearch-input";
 
       // Set debug to true if you want to inspect the dropdown
-      const debug = false;
+      var debug = false;
 
-      docsearch({ appId, apiKey, indexName, inputSelector, debug });
+      docsearch({
+        appId: appId,
+        apiKey: apiKey,
+        indexName: indexName,
+        inputSelector: inputSelector,
+        debug: debug
+      });
     </script>
   </body>
 
