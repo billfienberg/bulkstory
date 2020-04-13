@@ -10,9 +10,9 @@ Hello
 
 ![](.gitbook/assets/w3c_home.gif)
 
-2020-01-15
-Last updated
+2020-01-15 Last updated
 
-<script>
-console.log("TESTING");
-</script>
+  
+console.log\("TESTING"\);  
+
+
